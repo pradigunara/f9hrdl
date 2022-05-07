@@ -3052,7 +3052,7 @@ var app = function() {
                 t = "";
             a ? r.length < i.maxAttempts / 3 ? t += "🔊" : r.length < i.maxAttempts / 3 * 2 ? t += "🔉" : r.length <= i.maxAttempts && (t += "🔈") : t += "🔇";
             for (let e = 0; e < i.maxAttempts; e++) r.length > e ? 1 == r[e].isCorrect ? t += "🟩" : 1 == r[e].isSkipped ? t += "⬛️" : t += "🟥" : t += "⬜️";
-            let o = e + "\n\n" + t + "\n\nhttps://heardle.app";
+            let o = e + "\n\n" + t + "\n\nhttps://f9heardle.nakko.fans";
             if (!navigator.share || !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || /Firefox/i.test(navigator.userAgent)) return navigator && navigator.clipboard && navigator.clipboard.writeText ? (pe("clickShareClipboard", {
                 name: "clickShareClipboard"
             }), n(5, c = !0), setTimeout((() => {
